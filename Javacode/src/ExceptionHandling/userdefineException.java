@@ -9,6 +9,19 @@ class NegativeException extends Exception{
 
 public class userdefineException {
 	
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			meth1();
+		}
+		catch(NegativeException e) {
+			System.out.println(e.getMessage());
+		}
+
+		
+	}
 static int area(int l,int b)throws NegativeException  {
 		
 		if(l<0||b<0)
@@ -23,17 +36,6 @@ static int area(int l,int b)throws NegativeException  {
 		int a = area(-10,5);
 		
 		System.out.println(a);
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		try {
-			meth1();
-		}
-		catch(NegativeException e) {
-			System.out.println(e.getMessage());
-		}
-
 	}
 
 }

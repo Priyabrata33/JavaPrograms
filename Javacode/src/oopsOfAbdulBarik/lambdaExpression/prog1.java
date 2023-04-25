@@ -44,6 +44,9 @@ public class prog1 {
 		myLambda2 m3 = (a,b) -> a+b;
 		
 		System.out.println(m3.add(9, 11));
+		
+		
+		
 	}
 
 }

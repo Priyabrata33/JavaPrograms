@@ -19,7 +19,7 @@ public class SliddingWindowGFGActual {
 		
 		int max_sum = cur_sum;
 		
-		for(int i =k;i<arr.length;i++){
+		for(int i = k;i<arr.length;i++){
 			cur_sum += arr[i]-arr[i-k];
 			max_sum = Math.max(cur_sum, max_sum);
 			

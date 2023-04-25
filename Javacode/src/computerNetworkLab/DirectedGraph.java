@@ -1,29 +1,11 @@
-/**
- * @author chinmayasahu
- * @since 2022
- * @version 1.0
- * 
- * 
- */
+
 
 package computerNetworkLab;
-/**
- * @import from java.util  package
- * 
- */
-
 import java.util.Arrays;
-/**
- * @import java.util package
- */
 import java.util.Scanner;
-
-
 public class DirectedGraph {
-
 	public static void main(String[] args) {
-		
-
+	
 		Scanner sc =new Scanner (System.in);
 		
 		System.out.println("enter the number of vertices: ");

@@ -11,14 +11,14 @@ public class undirectedNetwork {
 		System.out.println("enter the number of vertices: ");
 		int node = sc.nextInt();
 		
-		int n =1;
+		int n = 0;
 		
 		int[][] mat = new int[node][node];
 		
 		int node1 = 0;
 		int node2 = 0;
 		
-		while(node1>=0 && node2 >= 0 && n<n*n/2) {
+		while(node1>=0 && node2 >= 0 ) {
 		
 			System.out.println("enter the nodes " +n+ ":");
 			

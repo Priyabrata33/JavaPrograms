@@ -1,5 +1,7 @@
 package interfaceExamles;
 
+import java.util.Arrays;
+
 interface Test{
 	void meth1();
 	void meth2();
@@ -27,6 +29,9 @@ public class Example1 {
 		// TODO Auto-generated method stub
 		
 		
+		
+		Test t2[] = new Test[5];
+		System.out.println(Arrays.toString(t2));
 		Test t = new My();
 		
 		t.meth1();

@@ -9,10 +9,12 @@ public class MultipleAndNestedTryCatch {
 		int arr[] = {20,30,7,0,10};
 		
 		try {
-			int c = arr[0]/arr[4];
-			System.out.println("Ans = " +c);
 			
 			System.out.println(arr[5]);
+			
+			int c = 5/0	;
+			System.out.println("Ans = " +c);
+			
 			
 		}
 		catch(ArithmeticException e) {
@@ -20,29 +22,30 @@ public class MultipleAndNestedTryCatch {
 		}
 		
 		catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println(e);
+			
+			System.out.println(e );
 		}
 		
 		System.out.println("Be focused");
 		
 		
 		
-		try {
-			int c = arr[0]/arr[4];
-			System.out.println("Division" +c);
-			
-			try {
-				System.out.println(arr[10]);
-			}catch(ArrayIndexOutOfBoundsException e) {
-				System.out.println("Enter the perfect index with in the element");
-			}
-		}
-		catch(ArithmeticException e){
-			System.out.println(e);
-		}
-		
-		System.out.println("Go with the flow");
-		
+//		try {
+//			int c = arr[0]/arr[4];
+//			System.out.println("Division" +c);
+//			
+//			try {
+//				System.out.println(arr[10]);
+//			}catch(ArrayIndexOutOfBoundsException e) {
+//				System.out.println("Enter the perfect index with in the element");
+//			}
+//		}
+//		catch(ArithmeticException e){
+//			System.out.println(e);
+//		}
+//		
+//		System.out.println("Go with the flow");
+//		
 			
 		
 		
